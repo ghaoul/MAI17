@@ -1,64 +1,75 @@
-<!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>apprfendre css avec code 213</title>
+    <title>Site test code 213</title>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.png">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Helvetica">
 </head>
-
 <body>
-    <header id="header">
-        <div class="progressBar-container">
-            <div class="progressBar" id="progressBar"></div>
+    <nav>
+        <h1>Apprendre HTML</h1>
+        <div class="onglets">
+            <a href="#">Home</a>
+            <a href="#enseignants">Nos cours</a>
+            <a href="#contact">Contact</a>
         </div>
-        <nav class="navbar">
-            <div class="logo"><a href="">MON LOGO</a></div>
+    </nav>
 
-            <ul class="nav-ul" id="nav_ul">
-                <li>
-                    <a href="#accueil">Accueil</a>
-                </li>
-                <li>
-                    <a href="#à propos">A PROPOS</a>
-                </li>
-                <li>
-                    <a href="Services">Tutos</a>
-                </li>
-                <li>
-                    <a href="#Contact">Contact</a>
-                </li>
-            </ul>
-
-            <div class="hamburger" id="hamburger">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-            </div>
-        </nav>
+    <header>
+        <h1>Construir l'avenir par l'aprrentissage</h1>
+        <h4> Programme ecole 213</h4>
+        <button>Parcourir</button>
     </header>
 
-    <h1>apprendre css</h1>
+    <section class="main" id="enseignants">
 
-  
+        <div class="content">
+            <div class="card">
+                <div class="left">
+                    <h1>Nos enseignants</h1>
+                    <p>Un apprentissage de qualité.</p>
+                </div>
+                <div class="right">
+                    <img src="/image/enseignants.jpg" alt="">
+                </div>
+            </div>
 
-    <article id="cours">
-        <img src="https://picsum.photos/601/200" alt="random image">
-         <p>  tester le css </p>
-    </article>
+            <div class="card">
+                <div class="left">
+                    <h1>Nos cours</h1>
+                    <p>Nous mettons à votre disposition  nos cours et nos quizs pour un meilleur apprentissage </p>
+                </div>
+                <div class="right">
+                    <img src="/image/enligne.avif" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
 
-    
-    <footer id="footer">
-        <span>&copy;Classe web</span>
-        <p> Ce travail est un essai sur les differents concepts CSS.</p>
+    <footer>
+
+        <h1>Notre programme</h1>
+        <div class="services">
+            
+            <div class="service">
+                <h3>cours et quizs<h3>
+                <p> un ensemble de cours soigneusements séléctionnés ainsi que des exemples sur w3schoole.</p>
+            </div>
+
+            <div class="service">
+                <h3>challenge</h3>
+                <p> après chaque cours un challeng à réaliser pour poursuivre la suite des cours</p>
+            </div>
+
+            <div class="service">
+                <h3>Projet final</h3>
+                <p> Après des semaines de travail et soumissions des challengs un projet final à réaliser pour concr&tiser nos connaissances en développement web.</p>
+            </div>
+
+        </div>
+
+        <p id="contact">Contact :TIZI OUZOU | &copy; mai2024, Oularbi ghania</p>
     </footer>
-
-
-
 </body>
-
 </html>
